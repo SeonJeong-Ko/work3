@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>work</title>
+  <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+  <link rel="stylesheet" href="./item.css">
+  <script src="./item.js"></script>
+</head>
+<body>
+  <div id="main">
+    <div id="content">
+      <h2>폭포 I</h2>
+      <div class="caption">
+        <p>2023.03</p>
+        <p>Oil on plastic</p>
+        <p>72.7x50cm</p>
+      </div>
+
+      <!-- Gallery -->
+      <div class="gallery">
+        <button class="arrow left-arrow" onclick="changeSlide(-1)">&#9664;</button>
+        <div class="gallery-items">
+          <img src="./3-1.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./3-2.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+        </div>
+        <button class="arrow right-arrow" onclick="changeSlide(1)">&#9654;</button>
+      </div>
+      
+      <div class="note">
+        <p>폭포를 바라보면 마치 복잡한 생각들이 정리되는 듯한 느낌을 받았다.</p>
+        <br>
+        <p>이 폭포를 작품으로 표현함으로써 나의 감정과 생각들을 정리해보고자 했다.</p>
+        <br>
+        <p>작품의 상단은 여러 종류의 생각이 한 색으로 얽혀 있는 모습을 보여주며,<br>아래로 내려갈 수록 폭포처럼 흐르면서 색의 구분이 이루어지고 점차 정리되는 과정을 나타내고자 했다.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
